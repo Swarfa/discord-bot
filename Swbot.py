@@ -18,7 +18,7 @@ bot = discord.Bot(intents=intents)
 #Exception handler to ensure the bot runs even if ec2 metadata is unavailable.
 noData = "Data Unavailable"
 swIP = None
-insZone = None
+swZone = None
 swRegion = None
 
 try:
